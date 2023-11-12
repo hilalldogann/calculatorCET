@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CetCalculator.MainPage">
+
+    <Grid Padding="5" ColumnSpacing="20" RowSpacing="20"  Margin="5" BackgroundColor="Beige">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height=".15*"></RowDefinition>
+            <RowDefinition Height=".15*"></RowDefinition>
+            <RowDefinition Height=".15*"></RowDefinition>
+            <RowDefinition Height=".15*"></RowDefinition>
+            <RowDefinition Height=".15*"></RowDefinition>
+            <RowDefinition Height=".15*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width=".24*"></ColumnDefinition>
+            <ColumnDefinition Width=".24*"></ColumnDefinition>
+            <ColumnDefinition Width=".24*"></ColumnDefinition>
+            <ColumnDefinition Width=".24*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Label x:Name="Display" FontSize="40" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="4"></Label>
+        <Button  x:Name="ClearButton" Clicked="ClearButton_Clicked" Text="C" FontSize="40" Grid.Row="1"  Grid.ColumnSpan="2"></Button>
+        <Button x:Name="BackSpaceButton" Clicked="BackSpaceButton_Clicked" Text="&lt;" FontSize="40" Grid.Row="1" Grid.Column="2" Grid.ColumnSpan="2"></Button>
+        <Button  x:Name="Button7" Clicked="Button7_Clicked" Text="7" FontSize="40" Grid.Row="2" Grid.Column="0" ></Button>
+        <Button  x:Name="Button8" Clicked="Button8_Clicked" Text="8" FontSize="40" Grid.Row="2" Grid.Column="1" ></Button>
+        <Button  x:Name="Button9" Clicked="Button9_Clicked" Text="9" FontSize="40" Grid.Row="2" Grid.Column="2" ></Button>
+        <Button  x:Name="DivisionButton" Clicked="DivisionButton_Clicked" Text="/" FontSize="40" Grid.Row="2" Grid.Column="3" ></Button>
+
+
+        <Button  x:Name="Button4" Clicked="Button4_Clicked" Text="4" FontSize="40" Grid.Row="3" Grid.Column="0" ></Button>
+        <Button  x:Name="Button5" Clicked="Button5_Clicked" Text="5" FontSize="40" Grid.Row="3" Grid.Column="1" ></Button>
+        <Button  x:Name="Button6" Clicked="Button6_Clicked" Text="6" FontSize="40" Grid.Row="3" Grid.Column="2" ></Button>
+        <Button  x:Name="MultiplyButton" Clicked="MultiplyButton_Clicked" Text="*" FontSize="40" Grid.Row="3" Grid.Column="3" ></Button>
+
+
+        <Button x:Name="Button1" Clicked="Button1_Clicked" Text="1" FontSize="40" Grid.Row="4" Grid.Column="0" ></Button>
+        <Button x:Name="Button2" Clicked="Button2_Clicked" Text="2" FontSize="40" Grid.Row="4" Grid.Column="1" ></Button>
+        <Button  x:Name="Button3" Clicked="Button3_Clicked" Text="3" FontSize="40" Grid.Row="4" Grid.Column="2" ></Button>
+        <Button  x:Name="SubtractButton" Clicked="SubtractButton_Clicked" Text="-" FontSize="40" Grid.Row="4" Grid.Column="3" ></Button>
+
+        <Button  x:Name="Button0" Clicked="Button0_Clicked" Text="0" FontSize="40" Grid.Row="5" Grid.Column="0" ></Button>
+        <Button  x:Name="EqualButton" Clicked="EqualButton_Clicked" Text="=" FontSize="40" Grid.Row="5" Grid.Column="1" Grid.ColumnSpan="2" ></Button>
+
+        <Button x:Name="AddButton" Clicked="AddButton_Clicked" Text="+" FontSize="40" Grid.Row="5" Grid.Column="3" ></Button>
+
+    </Grid>
+    
+
+</ContentPage>
