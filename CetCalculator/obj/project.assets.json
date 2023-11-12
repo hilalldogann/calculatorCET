@@ -18447,11 +18447,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/hilaldogan/Projects/CetCalculator/CetCalculator/CetCalculator.csproj",
+      "projectUniqueName": "/Users/hilaldogan/Documents/GitHub/calculatorCET/CetCalculator/CetCalculator.csproj",
       "projectName": "CetCalculator",
-      "projectPath": "/Users/hilaldogan/Projects/CetCalculator/CetCalculator/CetCalculator.csproj",
+      "projectPath": "/Users/hilaldogan/Documents/GitHub/calculatorCET/CetCalculator/CetCalculator.csproj",
       "packagesPath": "/Users/hilaldogan/.nuget/packages/",
-      "outputPath": "/Users/hilaldogan/Projects/CetCalculator/CetCalculator/obj/",
+      "outputPath": "/Users/hilaldogan/Documents/GitHub/calculatorCET/CetCalculator/obj/",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "configFilePaths": [

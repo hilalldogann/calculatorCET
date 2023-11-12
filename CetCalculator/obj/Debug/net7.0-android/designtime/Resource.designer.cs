@@ -30,8 +30,6 @@ namespace CetCalculator
 			global::Microsoft.Maui.Controls.Compatibility.Resource.Attribute.scrollViewStyle = global::CetCalculator.Resource.Attribute.scrollViewStyle;
 			global::Microsoft.Maui.Controls.Compatibility.Resource.Drawable.abc_ic_clear_material = global::CetCalculator.Resource.Drawable.abc_ic_clear_material;
 			global::Microsoft.Maui.Controls.Compatibility.Resource.Drawable.abc_ic_search_api_material = global::CetCalculator.Resource.Drawable.abc_ic_search_api_material;
-			global::Microsoft.Maui.Controls.Compatibility.Resource.Layout.tabbar = global::CetCalculator.Resource.Layout.tabbar;
-			global::Microsoft.Maui.Controls.Compatibility.Resource.Layout.toolbar = global::CetCalculator.Resource.Layout.toolbar;
 			global::Microsoft.Maui.Controls.Compatibility.Resource.Style.collectionViewTheme = global::CetCalculator.Resource.Style.collectionViewTheme;
 			global::Microsoft.Maui.Controls.Compatibility.Resource.Style.scrollViewTheme = global::CetCalculator.Resource.Style.scrollViewTheme;
 			global::Microsoft.Maui.Controls.Resource.Animation.enterfromleft = global::CetCalculator.Resource.Animation.enterfromleft;
@@ -10483,10 +10481,10 @@ namespace CetCalculator
 			public const int support_simple_spinner_dropdown_item = 2131427445;
 			
 			// aapt resource value: 0x7F0B0076
-			public const int tabbar = 2131427446;
+			public const int Tabbar = 2131427446;
 			
 			// aapt resource value: 0x7F0B0077
-			public const int toolbar = 2131427447;
+			public const int Toolbar = 2131427447;
 			
 			static Layout()
 			{

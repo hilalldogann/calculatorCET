@@ -12,40 +12,34 @@ build_property.EnableSingleFileAnalyzer = true
 build_property.EnableTrimAnalyzer = false
 build_property.IncludeAllContentForSelfExtract = 
 build_property.RootNamespace = CetCalculator
-build_property.ProjectDir = /Users/hilaldogan/Projects/CetCalculator/CetCalculator/
+build_property.ProjectDir = /Users/hilaldogan/Documents/GitHub/calculatorCET/CetCalculator/
 
-[/Users/hilaldogan/Projects/CetCalculator/CetCalculator/App.xaml]
+[/Users/hilaldogan/Documents/GitHub/calculatorCET/CetCalculator/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = CetCalculator.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[/Users/hilaldogan/Projects/CetCalculator/CetCalculator/AppShell.xaml]
+[/Users/hilaldogan/Documents/GitHub/calculatorCET/CetCalculator/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = CetCalculator.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[/Users/hilaldogan/Projects/CetCalculator/CetCalculator/MainPage.xaml]
+[/Users/hilaldogan/Documents/GitHub/calculatorCET/CetCalculator/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = CetCalculator.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[/Users/hilaldogan/Projects/CetCalculator/CetCalculator/Platforms/Windows/App.xaml]
+[/Users/hilaldogan/Documents/GitHub/calculatorCET/CetCalculator/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = CetCalculator.App.xaml
-build_metadata.AdditionalFiles.TargetPath = App.xaml
-build_metadata.AdditionalFiles.RelativePath = App.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CetCalculator.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources/Styles/Colors.xaml
 
-[/Users/hilaldogan/Projects/CetCalculator/CetCalculator/Resources/Styles/Colors.xaml]
+[/Users/hilaldogan/Documents/GitHub/calculatorCET/CetCalculator/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = CetCalculator.Colors.xaml
-build_metadata.AdditionalFiles.TargetPath = Colors.xaml
-build_metadata.AdditionalFiles.RelativePath = Colors.xaml
-
-[/Users/hilaldogan/Projects/CetCalculator/CetCalculator/Resources/Styles/Styles.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = CetCalculator.Styles.xaml
-build_metadata.AdditionalFiles.TargetPath = Styles.xaml
-build_metadata.AdditionalFiles.RelativePath = Styles.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CetCalculator.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources/Styles/Styles.xaml
