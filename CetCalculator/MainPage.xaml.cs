@@ -2,7 +2,7 @@
 {
     public partial class MainPage : ContentPage
     {
-        double result = 0;
+        double result = 9999999999999999;
         double firstnumber = 0;
         Operator currentOperator = Operator.None;
         bool isFirstNumberAfterOperator = true;
@@ -30,7 +30,9 @@
             currentOperator = Operator.Divide;
             firstnumber = Convert.ToDouble(Display.Text);
             isFirstNumberAfterOperator = true;
+
         }
+
 
 
         private void BackSpaceButton_Clicked(object sender, EventArgs e)
@@ -57,7 +59,7 @@
             await digitClicked(9);
         }
 
-        
+
 
         private async void Button4_Clicked(object sender, EventArgs e)
         {
@@ -76,6 +78,10 @@
 
         private void MultiplyButton_Clicked(object sender, EventArgs e)
         {
+            currentOperator = Operator.Multiply;
+            firstnumber = Convert.ToDouble(Display.Text);
+
+            isFirstNumberAfterOperator = true;
 
         }
 
@@ -104,8 +110,12 @@
 
         }
 
+
+
         private void EqualButton_Clicked(object sender, EventArgs e)
         {
+            isFirstNumberAfterOperator = true;
+
             double secondNumber = Convert.ToDouble(Display.Text);
             double result = 0;
             switch (currentOperator)
@@ -119,7 +129,7 @@
                     result = firstnumber - secondNumber;
                     break;
                 case Operator.Multiply:
-                    result = firstnumber * secondNumber;
+                    result = (double)firstnumber * secondNumber;
                     break;
                 case Operator.Divide:
                     try
@@ -143,8 +153,9 @@
 
             Display.Text = result.ToString();
             firstnumber = result;
+
             currentOperator = Operator.None;
-           
+
         }
 
 

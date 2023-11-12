@@ -1,21 +1,27 @@
 ﻿<Properties StartupConfiguration="{FC9266CA-9827-4C6B-8200-515D224F353C}|Default">
-  <MonoDevelop.Ide.ItemProperties.CetCalculator PreferredExecutionTarget="MyAppleMacCatalystID" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="CetCalculator/MainPage.xaml.cs">
+    <Files>
+      <File FileName="CetCalculator/MainPage.xaml.cs" Line="193" Column="2" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="CetCalculator">
-            <Node name="CetCalculator" expanded="True" selected="True" />
+          <Node name="CetCalculator" expanded="True">
+            <Node name="CetCalculator">
+              <Node name="MainPage.xaml" expanded="True" />
+            </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <Xamarin.Addins.Core.Project ActiveDebugTarget="MyAppleMacCatalystID" />
+  <MonoDevelop.Ide.ItemProperties.CetCalculator PreferredExecutionTarget="Android.pixel_5_-_api_33" />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.pixel_5_-_api_33" />
+  <MonoDevelop.MonoDroid LastDeploySdkVersion="33.0.95" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>
